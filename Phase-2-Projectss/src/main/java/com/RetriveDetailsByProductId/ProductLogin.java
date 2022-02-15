@@ -29,7 +29,7 @@ public class ProductLogin extends HttpServlet{
 		  out.print("<table border='1'><tr><th>Product Id</th><th>Product Name</th><th>Product Price</th></tr>");
 
 		  try {
-			  String sql="select * from Details where p_ID="+104+"";
+			  String sql="select * from Details where p_ID=p_ID";
 		       Class.forName("com.mysql.cj.jdbc.Driver");
 		       Connection dbCon = DriverManager.getConnection("jdbc:mysql://localhost:3307/product","root","root");
 		       PreparedStatement ps=dbCon.prepareStatement(sql);

@@ -18,7 +18,7 @@
   
   <servlet>
     <description></description>
-    <display-name>productLogin</display-name>
+    <display-name>product</display-name>
     <servlet-name>productLogin</servlet-name>
     <servlet-class>com.RetriveDetailsByProductId.ProductLogin</servlet-class>
   </servlet>
